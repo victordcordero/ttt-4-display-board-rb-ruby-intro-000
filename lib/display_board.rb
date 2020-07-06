@@ -19,4 +19,4 @@ def display_board(board_one)
   puts "#{board_one[3]} | #{board_one[4]}  | #{board_one[5]} "
 end
 board_one = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
+display_board(board_one)
