@@ -8,6 +8,7 @@ def display_board(board)
   puts "   |   |   "
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 def display_board(board)
   puts "   |   |   "
@@ -17,3 +18,4 @@ def display_board(board)
   puts "   |   |   "
 end
 board = [" ", " ", " ", " ", " ", "X", " ", " ", " "]
+display_board(board)
