@@ -10,6 +10,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
+puts turn 1
 def display_board(board)
   puts "   |   |   "
   puts "-----------"
