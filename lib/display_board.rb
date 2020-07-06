@@ -11,12 +11,12 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 
-def display_board(board)
-  puts "#{board[0]} |  #{board[1]} | #{board[2]}  "
+def display_board(board_one)
+  puts "#{board_one[0]} |  #{board_one[1]} | #{board_one[2]}  "
   puts "-----------"
-  puts "#{board[3]} | #{board[4]}  | #{board[5]}  "
+  puts "#{board_one[3]} | #{board_one[4]}  | #{board_one[5]}  "
   puts "-----------"
-  puts "#{board[3]} | #{board[4]}  | #{board[5]} "
+  puts "#{board_one[3]} | #{board_one[4]}  | #{board_one[5]} "
 end
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board_one = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
